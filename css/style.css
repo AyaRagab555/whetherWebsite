@@ -1,0 +1,114 @@
+:root{
+    --main-color: #1E202B;
+    --second-color: #009AD8;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+.border-main{
+    border-color: var(--main-color) !important;
+}
+body{
+   color: #bfc1c8 !important;
+}
+.logo{
+    width: 20%;
+    height: 15%;
+}
+.link{
+    font-size: x-small;
+    color: #bfc1c8;
+}
+ul li{
+    font-size: medium;
+    list-style-type: none;
+    position: relative;
+    padding: 2px 8px;
+    border: #009bd800 2px solid;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+ul li:hover{
+    border: #009AD8 2px solid;
+}
+ul li:hover  a{
+    color: var(--second-color) !important;
+}
+.done{
+    color: var(--second-color) !important;
+}
+.done-b{
+    border: #009AD8 2px solid;
+}
+.cover-image{
+    background-image: url(../img/banner.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+input:focus-visible {
+    outline: none;
+}
+.find{
+    padding: 13px 50px;
+    left: 78.2%;
+    top: 33%;
+}
+.find:hover{
+    background-color: var(--second-color);
+}
+.item{
+    background-color: #323544;
+    height: 90%;
+}
+.item .head{
+    background-color: #2D303D;
+    height: 35px;
+}
+.item2{
+    background-color: #262936;
+    height: 90%;
+}
+.item2 .head{
+    background-color: #222530;
+    height: 35px;
+}
+.Degree-data{
+    font-size: 90px;
+    font-weight: 700;
+}
+.img-icon{
+    width: 20%;
+}
+.Wicon img{
+    width: 5%;
+    height: 5%;
+}
+
+.subscribe{
+    padding: 13px 50px;
+    left: 89.6%;
+    top: 35.5%;
+}
+footer{
+    background-color: #262936;
+}
+.icon-contain{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.icon-contain:hover{
+    background-color: var(--second-color);
+    color: #fff;
+}
+
